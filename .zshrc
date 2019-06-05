@@ -3,7 +3,7 @@ export TERM="xterm-256color"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/root/.oh-my-zsh"
+export ZSH="/root/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -71,7 +71,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git)
-plugins=(z sudo extract git zsh-autosuggestions zsh-syntax-highlighting history vi-mode)
+plugins=(z sudo extract git zsh-autosuggestions zsh-syntax-highlighting history-substring-search history vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
