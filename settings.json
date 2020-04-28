@@ -1,0 +1,171 @@
+{
+    "http.proxy": "http://cnnjproxy-gfw.tw.trendnet.org:8080",
+    "window.zoomLevel": 0,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.editor": "json",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+
+    // editor
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Roboto Mono', 'Noto Sans Mono CJK SC",
+    "editor.wordWrapColumn": 120,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "all",
+
+    // file
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+
+    // vim
+    "vim.leader": ",",
+    "vim.easymotion": true,
+    "vim.easymotionMarkerFontSize": "16",
+    "vim.easymotionMarkerHeight": 16,
+    "vim.easymotionMarkerYOffset": 5,
+    "vim.statusBarColorControl": true,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "<CR>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-x>": false,
+        "<C-]>": false,
+        "<C-[>": false,
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-f>": false,
+    },
+
+    // python
+    "python.jediEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120"
+    ],
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{column_limit: 120}"
+    ],
+
+    // terminal
+    "terminal.integrated.rendererType": "dom",
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontFamily": "'Roboto Mono', 'Noto Sans Mono CJK SC'",
+
+    // evermonkey
+    "evermonkey.token": "",
+    "evermonkey.noteStoreUrl": "https://app.yinxiang.com/shard/s12/notestore",
+    "evermonkey.highlightTheme": "monokai",
+    
+    // golang
+    "go.useLanguageServer": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.addTags": {
+        "tags": "json",
+        "options": "json=omitempty",
+        "promptForTags": false,
+        "transform": "camelcase"
+    },
+    "go.testFlags": [
+        "-v",
+    ],
+    "go.buildFlags": [
+        "-v"
+    ],
+    "[go]": {
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+
+    // markdown
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    },
+    "markdown.preview.fontSize": 16,
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont,  'Roboto Mono', 'Noto Sans Mono CJK SC','Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif",
+    "markdown.extension.showExplorer": true,
+
+    // java
+    "java.home": "",
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.format.settings.profile": "GoogleStyle",
+    "java.errors.incompleteClasspath.severity": "ignore",
+
+    // maven
+    "maven.terminal.useJavaHome": true,
+    "maven.executable.path": "",
+    "maven.executable.preferMavenWrapper": false,
+
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+    "cfnLint.path": "",
+    "git.ignoreLegacyWarning": true,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "yaml.validate": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "remote.SSH.remotePlatform": {
+    },
+    // "revealjs.separator": "^[\r\n?|\n]<!-- slide -->[\r\n?|\n]$",
+    // "revealjs.verticalSeparator": "^[\r\n?|\n]<!-- slide vertical=true -->[\r\n?|\n]$",
+    // "remote.SSH.showLoginTerminal": true
+}
